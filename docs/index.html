@@ -4,7 +4,7 @@
   <meta charset="utf-8" />
   <meta name="generator" content="pandoc" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
-  <title>XAIX TIO Framework v1.0</title>
+  <title>XAIX TIO Framework v1.1</title>
   <style>
     code{white-space: pre-wrap;}
     span.smallcaps{font-variant: small-caps;}
@@ -27,7 +27,7 @@
     {
       "@context": "https://schema.org",
       "@type": "CreativeWork",
-      "name": "XAIX Trust Infrastructure Optimization Framework (TIO) – v1.0",
+      "name": "XAIX Trust Infrastructure Optimization Framework (TIO) – v1.1",
       "author": {
         "@type": "Person",
         "name": "Tomoki Uemura",
@@ -37,10 +37,10 @@
           "name": "XAIX"
         }
       },
-      "datePublished": "2025-06-21",
+      "datePublished": "2025-06-24",
       "license": "https://github.com/xaixjp/tio-framework/blob/main/LICENSE",
       "url": "https://xaixjp.github.io/tio-framework/",
-      "description": "The XAIX TIO Framework v1.0 defines a structured approach to digital trust, enabling alignment between visibility and credibility through Foundational, Declared, and Consistent Trust components.",
+      "description": "The XAIX TIO Framework v1.1 defines a structured approach to digital trust, enabling alignment between visibility and credibility through Foundational, Declared, and Consistent Trust components.",
       "publisher": {
         "@type": "Organization",
         "name": "XAIX",
@@ -49,16 +49,16 @@
       "identifier": "https://github.com/xaixjp/tio-framework",
       "inLanguage": "en"
     }
-    </script>
-    <script type="module">
-      import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-      mermaid.initialize({ startOnLoad: true });
-    </script>
-  </head>
+  </script>
+  <script type="module">
+    import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+    mermaid.initialize({ startOnLoad: true });
+  </script>
+</head>
 <body>
 <header id="title-block-header">
-<h1 id="xaix-trust-infrastructure-optimization-tio-framework-v1.0">XAIX
-Trust Infrastructure Optimization (TIO) Framework – v1.0</h1>
+  <h1 id="xaix-trust-infrastructure-optimization-tio-framework-v1.1">XAIX 
+Trust Infrastructure Optimization (TIO) Framework – v1.1</h1>
 </header>
 <hr />
 <h2 id="purpose">Purpose</h2>
@@ -112,35 +112,177 @@ structurally trustworthy</strong>.</p>
 day.</p>
 <p>These actions form a reliable foundation that supports
 trustworthiness at every layer.</p>
-<div class="mermaid">
-  flowchart TD
-    TIO[Trust Infrastructure Optimization]
-    TIM[Trust Infrastructure Management]
-    FT[Foundational Trust]
-    DT[Declared Trust]
-    CT[Consistent Trust]
+<div class="mermaid">flowchart TD
+    TIO[&quot;Trust Infrastructure Optimization (TIO)&quot;]
+    TIM[&quot;Trust Infrastructure Management (TIM)&quot;]
+    FT[&quot;Foundational Trust (FT)&quot;]
+    DT[&quot;Declared Trust (DT)&quot;]
+    CT[&quot;Consistent Trust (CT)&quot;]
 
     TIO --&gt; TIM
     TIM --&gt; FT
     TIM --&gt; DT
-    TIM --&gt; CT
-</div>
+    TIM --&gt; CT</div>
 <hr />
 <h2 id="the-3-pillars-of-tim">The 3 Pillars of TIM</h2>
 <h3 id="foundational-trust-ft">1. Foundational Trust (FT)</h3>
 <blockquote>
-<p>Strengthen the technical and structural base — such as your domain,
-delivery, and control environment.</p>
+<p>Strengthen the base of trust — not only through technical
+mechanisms,<br />
+but also through structured systems and processes that establish
+authenticity.</p>
 </blockquote>
+<p>Foundational Trust rests on two core dimensions:</p>
+<ul>
+<li><p><strong>Systemic Technical Reliability</strong>:<br />
+The structured mechanisms that ensure safe, verifiable delivery and
+consistency of your information online.</p></li>
+<li><p><strong>Institutional or Verified Recognition</strong>:<br />
+Trust is also reinforced by systems that confirm identity or legitimacy
+through official — or officially comparable — verification
+processes.<br />
+These include steps that demonstrate your digital presence is tied to a
+real, accountable entity.</p></li>
+</ul>
 <h3 id="declared-trust-dt">2. Declared Trust (DT)</h3>
 <blockquote>
 <p>Clearly express who you are, what you do, and how you wish to be
 understood — with clarity and care.</p>
 </blockquote>
+<p>Declared Trust involves presenting your identity, values, and
+capabilities in a way that is understandable to both people and
+machines.</p>
+<p>TIO encourages that this declaration originate from a single
+authoritative source —<br />
+a website or channel under your direct control — rather than being
+fragmented across multiple origins.</p>
 <h3 id="consistent-trust-ct">3. Consistent Trust (CT)</h3>
 <blockquote>
 <p>Keep all your public information aligned — across platforms, over
 time, and across teams — to reduce confusion and build confidence.</p>
+</blockquote>
+<p>Supporting consistency means managing the harmony between your
+declared identity and the public-facing content associated with
+you.<br />
+The greater the alignment, the stronger the signal of reliability.</p>
+<hr />
+<h2 id="information-trust-tiers">Information Trust Tiers</h2>
+<p>To help distinguish what type of information supports trust and how
+it should be interpreted, TIO introduces a three-tier model:</p>
+<ul>
+<li><p><strong>Primary Information</strong><br />
+The original source of structured meaning, fully owned or directly
+authorized.<br />
+This is the only authoritative place where identity and intent are
+formally defined.</p></li>
+<li><p><strong>Secondary Information</strong><br />
+Channels under your control that support and reinforce primary
+declarations (e.g., official social accounts).<br />
+These should stay structurally aligned with your primary
+source.</p></li>
+<li><p><strong>Tertiary Information</strong><br />
+Information created or maintained by others — such as reviews, listings,
+or third-party summaries.<br />
+Even if accurate, they are not authoritative and should not be confused
+with your own declared meaning.</p></li>
+</ul>
+<p>The distinction is not just about accuracy — it’s about
+control.<br />
+Only what you can manage and define can serve as a true declaration of
+trust.</p>
+<div class="mermaid">flowchart TD
+    subgraph Tiers [Information Trust Tiers]
+        A1[&quot;Primary Information&lt;br&gt;(Authoritative Source)&quot;]
+        A2[&quot;Secondary Information&lt;br&gt;(Managed Channels)&quot;]
+        A3[&quot;Tertiary Information&lt;br&gt;(External Mentions)&quot;]
+    end
+
+    A1 --&gt;|Defines identity and meaning| T1[Root Trust Signal]
+    A2 --&gt;|Supports through alignment| T1
+    A3 --&gt;|Reference only, not authoritative| T2[Contextual Trust Signal]
+
+    T1 --&gt; StrongTrust[Structurally Reliable Trust]
+    T2 --&gt; PartialTrust[Supplemental or Indirect Trust]
+
+    classDef strong fill:#e6f2ff,stroke:#0066cc,color:#003366
+    classDef weak fill:#fef9e7,stroke:#d4ac0d,color:#7d6608
+
+    class StrongTrust strong
+    class PartialTrust weak</div>
+<p>This tiered model also conceptually aligns with the three trust
+layers defined in TIM:</p>
+<ul>
+<li><strong>Primary Information</strong> aligns with <strong>Declared
+Trust (DT)</strong>, as it represents the authoritative source of
+identity and intent — directly managed and intentionally
+structured.</li>
+<li><strong>Secondary Information</strong> aligns with
+<strong>Consistent Trust (CT)</strong>, as it includes managed channels
+that must remain structurally in sync with the primary source.</li>
+<li><strong>Tertiary Information</strong> does not directly correspond
+to any TIM layer, as it reflects external references beyond the scope of
+direct management or formal declaration.</li>
+</ul>
+<p>Additionally, both Primary and Secondary Information rely on a
+foundation of <strong>Foundational Trust (FT)</strong> — the
+infrastructural and institutional credibility that makes trust
+declarations technically verifiable and contextually meaningful.</p>
+<p>This alignment reinforces the idea that trust is not just a matter of
+accuracy or popularity, but of control, structure, and intentional
+alignment.</p>
+<h3 id="on-structured-absence-and-declared-non-connection">On Structured
+Absence and Declared Non-Connection</h3>
+<p>In today’s information-saturated environment, silence is often
+misinterpreted.</p>
+<p>TIO operates on the principle that <strong>only what is explicitly
+declared from a primary source is considered trustworthy</strong>.<br />
+This includes not only what you say — but also what you choose not to
+do.</p>
+<p>For individuals or organizations who prefer not to participate in
+certain channels (e.g., social media, review sites),<br />
+it is critical to <strong>declare that absence structurally</strong>,
+from within your Primary Information.</p>
+<p>Example declaration:</p>
+<blockquote>
+<p>“We do not operate any social media accounts.”<br />
+“We do not appear on third-party review sites.”<br />
+“Any information outside our official domain is not authorized.”</p>
+</blockquote>
+<p>This type of negative declaration — when issued from a verifiable,
+authoritative source —<br />
+<strong>prevents third-party information from being mistaken as
+Primary</strong>, and maintains the integrity of your trust
+structure.</p>
+<p>Sometimes, <strong>those who wish to say the least must still define
+the most.</strong><br />
+Declaring absence is not exclusion — it’s authorship.</p>
+<h3 id="implementation-note-declared-absence-in-json-ld">Implementation
+Note: Declared Absence in JSON-LD</h3>
+<p>In TIO, structuring your declared absence does not require complex
+configuration — it simply means <strong>intentionally limiting what
+appears in your structured data</strong>.</p>
+<p>Specifically:</p>
+<ul>
+<li>If you do not maintain any external channels (e.g., social media or
+review platforms), simply <strong>omit the <code>sameAs</code> field
+entirely</strong> from your JSON-LD.</li>
+<li>This absence is not an oversight — it is a structural signal
+indicating that no external profiles are part of your declared trust
+surface.</li>
+<li>You may also include a visible statement on your website clarifying
+your boundaries, such as:</li>
+</ul>
+<pre><code>&lt;p&gt;We do not participate in social media or review sites. Any information outside this domain is not authorized.&lt;/p&gt;</code></pre>
+<p>You can also present this message in plain text anywhere on your
+website.</p>
+<p>This minimalist approach is fully aligned with TIO’s principles:
+trust is defined not by what is inferred, but by what is explicitly
+declared — or deliberately left undeclared.</p>
+<p>By omitting sameAs, you are not hiding information. You are asserting
+a boundary — and declaring it through structure.</p>
+<blockquote>
+<p><strong>Structured absence is not omission. It is authorship by
+design.</strong></p>
 </blockquote>
 <hr />
 <h2 id="how-to-use-tio">How to Use TIO</h2>
@@ -167,8 +309,29 @@ with people and with systems.</p>
 <hr />
 <h2 id="version-license">Version &amp; License</h2>
 <ul>
-<li>Version: <strong>1.0</strong></li>
-<li>First published: <strong>June 21, 2025</strong></li>
+<li><p>Version: <strong>1.0</strong></p></li>
+<li><p>First published: <strong>June 21, 2025</strong></p></li>
+<li><p>Version: <strong>1.1</strong></p></li>
+<li><p>Updated: <strong>June 24, 2025</strong></p></li>
+</ul>
+<h3 id="change-log-v1.1-june-24-2025">Change Log (v1.1 – June 24,
+2025)</h3>
+<ul>
+<li>Revised descriptions for Foundational Trust (FT), Declared Trust
+(DT), and Consistent Trust (CT) to clarify scope of responsibility and
+target areas.</li>
+<li>Added a new section titled “Information Trust Tiers” as a
+supplementary framework to help contextualize the levels of trust
+maturity across the layers.</li>
+<li>Introduced the concept of <strong>Declared Absence</strong> through
+a new section, “On Structured Absence and Declared
+Non-Connection,”<br />
+outlining how the intentional omission of connections (e.g., social
+media or review sites) can serve as a trust signal when declared from a
+primary source.</li>
+<li>Added implementation guidance on <strong>structured absence using
+JSON-LD</strong>, including the practice of omitting the
+<code>sameAs</code> field to signal non-participation.</li>
 </ul>
 <p>This framework was created and authored by <strong>Tomoki
 Uemura</strong>, founder of <strong>XAIX</strong>.<br />
