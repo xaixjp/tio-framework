@@ -23,33 +23,65 @@
     .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
   <link rel="stylesheet" href="styles.css" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "CreativeWork",
-      "name": "XAIX Trust Infrastructure Optimization Framework (TIO) – v1.1",
-      "author": {
-        "@type": "Person",
-        "name": "Tomoki Uemura",
-        "email": "uemura@xaix.jp",
-        "affiliation": {
-          "@type": "Organization",
-          "name": "XAIX"
-        }
-      },
-      "datePublished": "2025-06-24",
-      "license": "https://github.com/xaixjp/tio-framework/blob/main/LICENSE",
-      "url": "https://xaixjp.github.io/tio-framework/",
-      "description": "The XAIX TIO Framework v1.1 defines a structured approach to digital trust, enabling alignment between visibility and credibility through Foundational, Declared, and Consistent Trust components.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "XAIX",
-        "url": "https://xaix.jp"
-      },
-      "identifier": "https://github.com/xaixjp/tio-framework",
-      "inLanguage": "en"
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "CreativeWork",
+  "@id": "https://xaixjp.github.io/tio-framework/#work",
+  "name": "XAIX Trust Infrastructure Optimization Framework (TIO) – v1.1",
+  "headline": "XAIX TIO Framework: A Modern Standard for Digital Trust Optimization",
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": "https://xaixjp.github.io/tio-framework/"
+  },
+  "url": "https://xaixjp.github.io/tio-framework/",
+  "description": "The XAIX TIO Framework v1.1 defines a structured approach to digital trust, enabling alignment between visibility and credibility through Foundational, Declared, and Consistent Trust components.",
+  "author": {
+    "@type": "Person",
+    "@id": "https://xaix.jp/#founder",
+    "name": "Tomoki Uemura",
+    "email": "uemura@xaix.jp",
+    "affiliation": {
+      "@type": "Organization",
+      "@id": "https://xaix.jp/#org",
+      "name": "XAIX"
     }
-  </script>
+  },
+  "publisher": {
+    "@type": "Organization",
+    "@id": "https://xaix.jp/#org",
+    "name": "XAIX",
+    "url": "https://xaix.jp"
+  },
+  "datePublished": "2025-06-24",
+  "license": "https://github.com/xaixjp/tio-framework/blob/main/LICENSE",
+  "identifier": [
+    "https://github.com/xaixjp/tio-framework",
+    "xaix-tio-v1.1"
+  ],
+  "inLanguage": "en"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://xaix.jp/#org",
+  "name": "XAIX",
+  "url": "https://xaix.jp",
+  "sameAs": [
+    "https://x.com/xaixjp"
+  ],
+  "description": "XAIX promotes digital trust through structured information optimization. We created the TIO Framework to support organizations and individuals in aligning visibility with credibility.",
+  "founder": {
+    "@type": "Person",
+    "@id": "https://xaix.jp/#founder",
+    "name": "Tomoki Uemura",
+    "email": "uemura@xaix.jp"
+  },
+  "disambiguatingDescription": "All authoritative information is located under this domain and our official X account. XAIX does not operate other social media or review channels."
+}
+</script>
   <script type="module">
     import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
     mermaid.initialize({ startOnLoad: true });
